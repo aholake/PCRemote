@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+
+    <TableRow android:gravity="center">
+
+        <ImageButton
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/mouse" />
+
+        <ImageButton
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/keyboard" />
+    </TableRow>
+
+    <TableRow android:gravity="center_horizontal">
+
+        <ImageButton
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/player" />
+    </TableRow>
+
+    <TableRow android:gravity="center_horizontal">
+
+        <ImageButton
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/presentation" />
+
+        <ImageButton
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/power" />
+    </TableRow>
+</TableLayout>

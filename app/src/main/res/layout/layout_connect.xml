@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_height="wrap_content">
+    <TextView
+        android:text="Enter IP Address:"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:hint="192.168.34.34"
+        android:inputType="number"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:text="CONNECT"
+        android:textColor="#ffffff"
+        android:shadowColor="@color/highlighted_text_material_dark"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="clickConnect"
+        android:background="@drawable/btn_style"/>
+
+</LinearLayout>
